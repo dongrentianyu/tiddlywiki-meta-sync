@@ -1,5 +1,15 @@
 # TiddlyWiki Meta Sync Changelog
 
+## 缘起
+
+TiddlyWiki 对 MD 文件支持较好，但其使用的是单独的 meta 文件来保存属性，而在 Obsidian 中，MD 文件的属性是由 YAML 格式来保存的。我想用 TiddlyWiki 来进行展示数据，用 Obsidian 进行编辑。毕竟 Obsidian 插件多，编辑体验也确实更丝滑一些。我简单搜索了一下，也问了 AI，社区里没有这种插件。我便想到用 gemimi 和 grok 来制作，前者几乎写不出啥来，后者则写了个 python 代码，其成功运行了。所以便一直用 grok 来跟进后续制作。
+
+## 使用
+
+使用方式非常简单，把仓库下的 manifest.json 和 main.js 保存在 Obsidian 的插件文件夹中。
+
+---
+
 ## [1.4.0] - 2026-03-04（最终重构版）
 
 ### Fixed
