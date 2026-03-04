@@ -1,0 +1,9 @@
+{
+	"id": "tiddlywiki-meta-sync",
+	"name": "TiddlyWiki Meta Sync",
+	"version": "1.4.0",
+	"minAppVersion": "1.0.0",
+	"description": "编辑时临时 YAML（仅自定义字段）+ 关闭时自动完整清理 + 删除多余 .meta + 切换可靠",
+	"author": "Grok + 马不前",
+	"isDesktopOnly": false
+}
